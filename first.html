@@ -1,0 +1,68 @@
+<html>
+    <meta charset="UTF-8">
+    <head>
+        <title>SML</title>
+        <link rel="stylesheet" type="text/css" href="first_2.css"> 
+        <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.10.2.min.js"></script>
+        <script type="text/javascript" src="first.js"></script>
+    </head>
+    <body>
+        <div id="main">
+        <div id="head">
+            <center><h1>SWeeT Media Link</h1></center>
+        </div>
+        </div>
+        <div id="url">
+ 	    <fieldset>
+		<legend>URL Details</legend>
+            	Enter URL: <input type="text" name="user" placeholder="http://www.sample.com" id="inputurl" size="150" required><br><br>
+	    	Select URL Type:
+		<ul style="list-style: none;padding: 0;margin:0;">
+              	<li><input type="radio" id="ut1" name="urltype" value="Web Page">Web Page</li>
+	      	<li><input type="radio" id="ut2" name="urltype" value="Media">Media
+	      	<ul style="list-style: none;">
+	        	<li><input type="radio" id="mt1" name="Mediatype" value="YouVideo">Youtube Video</li>
+	        	<li><input type="radio" id="mt2" name="Mediatype" value="Audio">Audio</li>
+	        	<li><input type="radio" id="mt3" name="Mediatype" value="PDF">PDF</li>
+		</ul>
+	      	</li>
+            	</ul>
+                <center><input type="submit" id="submit" class="button" value="Submit""></center>
+ 	    </fieldset>        
+        </div>
+        <div id="cont">
+        <iframe height="500" width="600" id="frame1" name="frm1" frameborder=0></iframe>
+        <iframe height="500" width="600" id="frame2" name="frm2" frameborder=0></iframe>
+	</div>
+        <div id="content">
+            <br><br><center><button id="renarrate" class="button">Link?</button>
+            <button id="display" class="button">Search?</button></center>
+        </div> 
+        <div id="pop" style="padding-left:160;">
+		<br><br>
+            <fieldset>
+            <legend>Enter the URL to be linked</legend>
+            URL:
+            <input type="text" id="rurl" name="url" size="150" required>
+            Select URL Type:
+            <ul style="list-style:none;padding:0;margin:0;">
+               <li><input type="radio" id="t1" name="URLtype" value="Yvideo">Youtube Video</li>
+               <li><input type="radio" id="t2" name="URLtype" value="audio">Audio</li>
+               <li><input type="radio" id="t3" name="URLtype" value="pdf">PDF</li>
+	       <li><input type="radio" id="t4" name="URLtype" value="wpage">Web Page</li>
+            </ul>
+            <center><input type="submit" id="rsubmit" class="button" value="Submit">
+            <input type="submit" id="return" class="button" value="Return"></center>
+            </fieldset>
+         </div>
+    
+    <div id="pdf-pub1">
+	<p style="font-family: Georgia;">Copy & Paste the content from frame1 here:</p><center><form><textarea id="text1" rows=10 cols=100></textarea></center><br><br></div>
+    <div id="pdf-pub2">
+	<p style="font-family: Georgia;">Copy & Paste the content from frame2 here:<br></p><center><form><textarea id="text2" rows=3 cols=100></textarea></center></div>
+    <div id="pub">
+	<center><input type="submit" id="publish" class='button' value="Publish"></form>
+	<input type="submit" id="ret" class="button" value="Return"></center>
+    </div>   
+    </body>
+</html>

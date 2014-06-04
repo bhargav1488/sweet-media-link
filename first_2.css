@@ -1,0 +1,59 @@
+body
+{
+    background-color:#b0c4de;
+}
+#head
+{
+    color:#DAA520;
+    background:black;
+    border-radius:10px;
+    font-family: Lucida Handwriting;
+}
+#url
+{
+    padding-left:50px;
+    position:absolute;
+    color:#151B54;
+    font-family: Georgia;
+}
+#inputurl
+{
+    width:85%;
+    height:35px;
+    font-family: Georgia;
+}
+#cont
+{
+    padding-left:50px;
+    padding-top:300px;
+}
+.button
+{
+    border-radius:10px;
+    width:100px;
+    height:30px;
+    color:#DAA520;
+    background-color:black;
+    box-shadow:5px 5px 5px #888; 
+    border: 1px outset #b37d00 ;
+    font-family: Josefin Slab;
+    font-size: 20px;
+    cursor: pointer;
+}
+#text
+{
+    height:30px;
+    border-radius:5px;
+}
+#pop
+{
+    height:300px;
+    width:300px;
+    opacity:0px;
+    font-family: Georgia;
+}
+#process
+{
+    padding-top: 250;
+    padding-left: 85;
+}
